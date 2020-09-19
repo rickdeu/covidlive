@@ -1,0 +1,31 @@
+JUG - HUÍLA 8ª EDIÇÃO
+
+CRIAÇÃO DE UMA APP WEB PARA CASOS DE COVID-19
+
+PASSOS PARA INSTALAÇÃO DO DJANGO
+
+
+1. Download python:
+	sudo apt-get install python3.7
+
+2. Instalação Django
+	Criar uma pasta para instalação do django
+	mkdir <nome da pasta>
+	Acessar pasta:
+	cd nome da pasta
+
+3. Criar ambiente virtual:
+	python3 -m venv ven
+
+4. Instalação Django
+	Activar primeiro a maquina virtual
+	source ven/bin/activate
+	pip install django~=2.1.5
+
+5. Criar o projecto
+	django-admin startproject <nome do projecto>
+
+6. Criar aplicação
+	python3 manage.py startapp <nome da aplicação>
+
+7. Configuração geral do projecto
